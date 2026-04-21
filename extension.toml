@@ -1,0 +1,7 @@
+id = "jb-high-contrast-theme"
+name = "JetBrains High Contrast"
+description = "A port of the JetBrains High Contrast accessibility theme for Zed"
+version = "0.1.0"
+schema_version = 1
+authors = ["cringoleg"]
+repository = "https://github.com/cringoleg/jetbrains-high-contrast-zed"
