@@ -256,6 +256,9 @@
         "function.method": {
           "color": "#ffcf40"
         },
+        "function.method.call": {
+          "color": "#ffcf40"
+        },
         "hint": {
           "color": "#b39500"
         },
