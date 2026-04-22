@@ -218,6 +218,10 @@
           "color": "#ed94ff",
           "font_style": "italic"
         },
+        "constant.builtin": {
+          "color": "#ed864a",
+          "font_weight": 700
+        },
         "constructor": {
           "color": "#ffcf40"
         },
@@ -239,6 +243,16 @@
         "function": {
           "color": "#ffcf40"
         },
+        "function.builtin": {
+          "color": "#ffcf40",
+          "font_style": "italic"
+        },
+        "function.call": {
+          "color": "#ffcf40"
+        },
+        "function.macro": {
+          "color": "#a9b837"
+        },
         "function.method": {
           "color": "#ffcf40"
         },
@@ -246,6 +260,36 @@
           "color": "#b39500"
         },
         "keyword": {
+          "color": "#ed864a"
+        },
+        "keyword.conditional": {
+          "color": "#ed864a"
+        },
+        "keyword.control": {
+          "color": "#ed864a"
+        },
+        "keyword.directive": {
+          "color": "#a9b837"
+        },
+        "keyword.exception": {
+          "color": "#ed864a"
+        },
+        "keyword.function": {
+          "color": "#ed864a"
+        },
+        "keyword.import": {
+          "color": "#ed864a"
+        },
+        "keyword.operator": {
+          "color": "#ed864a"
+        },
+        "keyword.repeat": {
+          "color": "#ed864a"
+        },
+        "keyword.return": {
+          "color": "#ed864a"
+        },
+        "keyword.type": {
           "color": "#ed864a"
         },
         "label": {
@@ -257,6 +301,9 @@
         },
         "link_uri": {
           "color": "#00aaff"
+        },
+        "namespace": {
+          "color": "#ffffff"
         },
         "number": {
           "color": "#33ccff",
@@ -291,6 +338,9 @@
         "punctuation.list_marker": {
           "color": "#ed864a"
         },
+        "punctuation.markup": {
+          "color": "#ed864a"
+        },
         "punctuation.special": {
           "color": "#ed864a"
         },
@@ -314,8 +364,17 @@
         "string.special.symbol": {
           "color": "#ed94ff"
         },
+        "selector": {
+          "color": "#ed864a"
+        },
+        "selector.pseudo": {
+          "color": "#a9b837"
+        },
         "tag": {
           "color": "#ed864a"
+        },
+        "tag.doctype": {
+          "color": "#a9b837"
         },
         "text.literal": {
           "color": "#54b33e"
@@ -331,8 +390,23 @@
         "type.builtin": {
           "color": "#37cccc"
         },
+        "type.definition": {
+          "color": "#37cccc",
+          "font_weight": 700
+        },
+        "type.enum": {
+          "color": "#37cccc",
+          "font_weight": 700
+        },
+        "type.enum.variant": {
+          "color": "#37cccc"
+        },
         "variable": {
           "color": "#ffffff"
+        },
+        "variable.builtin": {
+          "color": "#ed864a",
+          "font_style": "italic"
         },
         "variable.member": {
           "color": "#ed94ff"
@@ -346,6 +420,38 @@
         },
         "variant": {
           "color": "#37cccc"
+        },
+        "comment.documentation": {
+          "color": "#499936",
+          "font_style": "italic"
+        },
+        "constant.macro": {
+          "color": "#a9b837"
+        },
+        "diff.plus": {
+          "color": "#62cc47"
+        },
+        "diff.minus": {
+          "color": "#fa3232"
+        },
+        "markup.heading": {
+          "color": "#ffcf40",
+          "font_weight": 700
+        },
+        "markup.heading.marker": {
+          "color": "#ed864a"
+        },
+        "markup.list.unnumbered": {
+          "color": "#ed864a"
+        },
+        "markup.list.numbered": {
+          "color": "#ed864a"
+        },
+        "markup.bold": {
+          "font_weight": 700
+        },
+        "markup.italic": {
+          "font_style": "italic"
         }
       }
     }
