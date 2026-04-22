@@ -203,7 +203,7 @@
           "boolean": {
             "color": "#ED864AFF",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": 400
           },
           "comment": {
             "color": "#7EC3E6FF",
@@ -238,12 +238,12 @@
           "emphasis.strong": {
             "color": "#EBEBEBFF",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": 400
           },
           "enum": {
             "color": "#37CCCCFF",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": 400
           },
           "function": {
             "color": "#FFCF40FF",
@@ -268,7 +268,7 @@
           "label": {
             "color": "#00AAFFFF",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": 400
           },
           "link_text": {
             "color": "#D2F53CFF",
@@ -288,7 +288,7 @@
           "number": {
             "color": "#33CCFFFF",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": 400
           },
           "operator": {
             "color": "#ED864AFF",
@@ -328,7 +328,7 @@
           "punctuation.delimiter": {
             "color": "#ED864AFF",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": 400
           },
           "punctuation.list_marker": {
             "color": "#ED864AFF",
@@ -368,7 +368,7 @@
           "string.regex": {
             "color": "#00AAFFFF",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": 400
           },
           "string.special": {
             "color": "#ED864AFF",
@@ -393,12 +393,12 @@
           "title": {
             "color": "#FFCF40FF",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": 400
           },
           "type": {
             "color": "#37CCCCFF",
             "font_style": null,
-            "font_weight": 700
+            "font_weight": 400
           },
           "variable": {
             "color": "#FFFFFFFF",
