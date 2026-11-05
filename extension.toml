@@ -1,6 +1,6 @@
 id = "jb-high-contrast-theme"
 name = "JetBrains High Contrast"
-description = "A port of the JetBrains High Contrast accessibility theme for Zed"
+description = "A port of JetBrains High Contrast with subdued grey line numbers and italic Rust documentation comments, self, and constants"
 version = "0.1.1"
 schema_version = 1
 authors = ["cringoleg"]

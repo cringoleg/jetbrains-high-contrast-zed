@@ -75,7 +75,7 @@ For a white cursor and an opaque blue selection matching the corresponding JetBr
 
 ### PHP built-in values and types
 
-Zed's PHP highlighting uses `constant.builtin` for `true`, `false`, and `null`, and `type.builtin` for primitive types such as `int`. To make those captures orange, merge these entries into your override's `syntax` object.
+Zed's PHP highlighting uses `constant.builtin` for `true`, `false`, and `null`, and `type.builtin` for primitive types such as `int`. The current theme styles these through the parent `constant` and `type` entries. To make those captures orange and give `$this` purple italics, merge these entries into your override's `syntax` object.
 
 ```json
 {
@@ -86,11 +86,15 @@ Zed's PHP highlighting uses `constant.builtin` for `true`, `false`, and `null`, 
   "type.builtin": {
     "color": "#ED864AFF",
     "font_weight": 400
+  },
+  "variable.builtin": {
+    "color": "#ED94FFFF",
+    "font_style": "italic"
   }
 }
 ```
 
-These capture names are shared with other languages, so this preference also affects matching captures outside PHP. Zed already falls back from `function.method` to `function` and from `variable.parameter` to `variable`; explicit entries are useful when you want a different style.
+You can use any of these entries independently. These capture names are shared with other languages, so this preference also affects matching captures outside PHP. Zed already falls back from `function.method` to `function` and from `variable.parameter` to `variable`; explicit entries are useful when you want a different style. In PHP, `variable.parameter` styles named argument labels such as `limit:` in `fetch(limit: 10)`.
 
 ## Reviewing theme changes
 
