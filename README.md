@@ -42,7 +42,7 @@ Rust's documentation tool can report unresolved references through its built-in 
 
 Wrap guides mark character columns with vertical lines. Enable them and specify their positions with `wrap_guides`. With `soft_wrap` set to `none`, setting `preferred_line_length` alone does not show a guide.
 
-This example shows guides at columns 80, 100, and 120 and makes ordinary guides brighter than the theme default.
+This example shows guides at columns 80, 100, and 120 using the theme's existing guide colors. Adjust the colors to suit your preferences.
 
 ```json
 {
@@ -50,7 +50,7 @@ This example shows guides at columns 80, 100, and 120 and makes ordinary guides 
   "wrap_guides": [80, 100, 120],
   "theme_overrides": {
     "JetBrains High Contrast": {
-      "editor.wrap_guide": "#FFFFFF20",
+      "editor.wrap_guide": "#FFFFFF0D",
       "editor.active_wrap_guide": "#FFFFFF1A"
     }
   }
